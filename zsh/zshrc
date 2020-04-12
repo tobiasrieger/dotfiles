@@ -108,7 +108,9 @@ alias finder="open ."
 alias p="pwd"
 alias wiki="wikit"
 alias sys="neofetch"
-
+alias python=/usr/local/bin/python3
+alias pip=/usr/local/bin/pip3
+alias rr=renderr.sh
 
 #Hide User when default
 DEFAULT_USER="tobias"
@@ -117,10 +119,16 @@ prompt_context(){}
 #Normalize tar
 export COPYFILE_DISABLE=1
 
+#Custom Scripts
+export PATH=~/bin:$PATH
+
+#Python path
+export PYTHONPATH=/usr/local/lib/python3.7/site-packages:$PYTHONPATH
+
 #Show neofetch
-echo "\n"
-neofetch
-echo ""
+#echo "\n"
+#neofetch
+#echo ""
 
 #Custom Terminal Title
 ZSH_THEME_TERM_TITLE_IDLE="tron"
