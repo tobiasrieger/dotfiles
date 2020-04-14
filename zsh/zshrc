@@ -109,8 +109,11 @@ alias sys="neofetch"
 #Normalize tar
 export COPYFILE_DISABLE=1
 
+#Add usr location to path
+export PATH=/usr/local/bin:$PATH
 #Add custom script location to path
 export PATH=~/bin:$PATH
+
 
 #R config
 alias rr=renderr.sh
