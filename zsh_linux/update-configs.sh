@@ -5,3 +5,5 @@ cp zshrc ~/.zshrc
 cp ../common_files/r3configure.zsh-theme ~/.oh-my-zsh/themes/r3configure.zsh-theme
 # Add conda rc 
 cp ../common_files/condarc ~/.condarc
+# Add conky rc
+cp conkyrc ~/.conkyrc
