@@ -115,6 +115,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=~/bin:$PATH
 #Add sbin to path
 export PATH=/sbin:$PATH
+export PATH=/usr/sbin:$PATH
 
 #R config
 alias rr=renderr.sh
