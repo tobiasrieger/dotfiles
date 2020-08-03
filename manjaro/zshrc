@@ -104,18 +104,6 @@ alias sys="neofetch"
 #R config
 alias rr=renderr.sh
 
-#Java Versions
-export JAVA_8_HOME='/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java'
-export JAVA_11_HOME='/usr/lib/jvm/java-11-openjdk-amd64/bin/java'
-export JAVA_14_HOME='/usr/lib/jvm/java-14-openjdk-amd64/bin/java'
-
-alias java11='export JAVA_HOME=$JAVA_11_HOME'
-alias java14='export JAVA_HOME=$JAVA_14_HOME'
-alias java8='export JAVA_HOME=$JAVA_8_HOME'
-
-# default java14
-JAVA_HOME=$JAVA_14_HOME
-
 #Python config with miniconda
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
