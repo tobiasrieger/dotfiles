@@ -124,6 +124,10 @@ alias rr=renderr.sh
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+#Export systemds path
+export SYSTEMDS_ROOT=$HOME/Developer/systemds
+export PATH=$SYSTEMDS_ROOT/bin:$PATH
+
 #Python config with miniconda from brew
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
