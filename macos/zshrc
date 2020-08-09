@@ -120,17 +120,9 @@ export PATH=/usr/sbin:$PATH
 #R config
 alias rr=renderr.sh
 
-#Java Versions
-export JAVA_8_HOME='/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/'
-export JAVA_11_HOME='/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/'
-export JAVA_14_HOME='/Library/Java/JavaVirtualMachines/openjdk-14.0.1.jdk/Contents/Home/'
-
-alias java11='export JAVA_HOME=$JAVA_11_HOME'
-alias java14='export JAVA_HOME=$JAVA_14_HOME'
-alias java8='export JAVA_HOME=$JAVA_8_HOME'
-
-# default java14
-JAVA_HOME=$JAVA_14_HOME
+#Java Versions via jEnv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
 
 #Python config with miniconda from brew
 # >>> conda initialize >>>
