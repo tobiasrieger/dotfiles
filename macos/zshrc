@@ -36,7 +36,7 @@ ZSH_THEME="r3configure"
 DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -101,6 +101,9 @@ alias finder="open ."
 alias p="pwd"
 alias wiki="wikit"
 alias sys="neofetch"
+
+# Configure fuck command
+eval $(thefuck --alias)
 
 #Hide User when default
 #DEFAULT_USER="tobias"
