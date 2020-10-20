@@ -123,6 +123,9 @@ export PATH=/usr/sbin:$PATH
 #R config
 alias rr=renderr.sh
 
+#Tex Base Path
+export PATH=/Library/TeX/texbin:$PATH
+
 #Java Versions via jEnv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
