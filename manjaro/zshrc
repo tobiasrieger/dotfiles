@@ -104,6 +104,10 @@ alias sys="neofetch"
 #R config
 alias rr=renderr.sh
 
+#SystemDS development root path
+export SYSTEMDS_ROOT='/home/tobias/Developer/systemds'
+export PATH=$SYSTEMDS_ROOT/bin:$PATH
+
 #Python config with miniconda
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
